@@ -1,0 +1,405 @@
+{
+  "clientFacts": {
+    "businessName": "Explore Asia",
+    "tagline": "Explore. Experience. Memories Forever.",
+    "phone": "+91 9906571295",
+    "whatsApp": "919906571295",
+    "email": "salesshahidsxr@gmail.com",
+    "address": "Batapora - Shalimar Rd, Tailbal, Rainawari, Srinagar, Jammu and Kashmir 190006",
+    "rating": "4.9",
+    "ratingCount": "248"
+  },
+  "images": {
+    "logo": "[[LOGO_IMAGE_PATH_OR_URL]]",
+    "heroBg": "https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?auto=format&fit=crop&w=1920&q=80",
+    "ourStoryBg": "https://images.unsplash.com/photo-1598305374805-4f3640226462?auto=format&fit=crop&w=1200&q=80",
+    "mapStaticBg": "https://images.unsplash.com/photo-1467803738586-46b7eb7be060?auto=format&fit=crop&w=1200&q=80",
+    "placeholderImage": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=800&q=80"
+  },
+  "videoTestimonials": [
+    {
+      "id": 1,
+      "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "name": "Ananya Sen",
+      "location": "Kolkata",
+      "package": "Love in the Valley — Honeymoon Edition"
+    },
+    {
+      "id": 2,
+      "youtubeUrl": "https://www.youtube.com/watch?v=X23D_N9G3vU",
+      "name": "Vikram Malhotra",
+      "location": "Delhi",
+      "package": "Charismatic Kashmir"
+    },
+    {
+      "id": 3,
+      "youtubeUrl": "https://www.youtube.com/watch?v=fX5y8W6n8m0",
+      "name": "Siddharth & Ritu",
+      "location": "Mumbai",
+      "package": "Captivating Kashmir"
+    }
+  ],
+  "writtenTestimonials": [
+    {
+      "name": "Aarav Sharma",
+      "city": "Mumbai",
+      "rating": 5,
+      "text": "Our honeymoon trip was beautifully organized. Staying in the Gulmarg resort and the houseboat on Dal Lake was magical. Every detail was taken care of."
+    },
+    {
+      "name": "Priyanka Patel",
+      "city": "Delhi",
+      "rating": 5,
+      "text": "The family packages are very affordable. The local drivers and guides were extremely friendly and knew all the best spots in Sonamarg. Highly recommend!"
+    },
+    {
+      "name": "Rahul Verma",
+      "city": "Bangalore",
+      "rating": 5,
+      "text": "Vaishno Devi and Patnitop trip was very smooth. The hotel arrangements in Katra were excellent, and the coordination was top-notch."
+    },
+    {
+      "name": "Sneha Kulkarni",
+      "city": "Pune",
+      "rating": 5,
+      "text": "Loved the transparency in pricing. No hidden costs. They were always available on WhatsApp for any queries during the trip."
+    }
+  ],
+  "packages": [
+    {
+      "id": "love-in-the-valley",
+      "name": "Love in the Valley — Honeymoon Edition",
+      "itinerary": "2N Srinagar, 1N Pahalgam, 2N Gulmarg, 1N Houseboat",
+      "duration": "6N/7D",
+      "priceOriginal": 49999,
+      "priceDiscount": 42000,
+      "priceSuffix": "/couple",
+      "rating": 5,
+      "category": "Honeymoon",
+      "image": "https://images.unsplash.com/photo-1598305374805-4f3640226462?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "charismatic-kashmir",
+      "name": "Charismatic Kashmir",
+      "itinerary": "3N Srinagar, 1N Pahalgam, 1N Gulmarg, 1N Houseboat",
+      "duration": "6N/7D",
+      "priceOriginal": 19499,
+      "priceDiscount": 17000,
+      "priceSuffix": "/person",
+      "rating": 4.9,
+      "category": "Family",
+      "image": "https://images.unsplash.com/photo-1706021173837-5918d8bae041?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "whispers-of-kashmir",
+      "name": "Whispers of Kashmir",
+      "itinerary": "2N Srinagar, 1N Houseboat",
+      "duration": "3N/4D",
+      "priceOriginal": 9499,
+      "priceDiscount": 8500,
+      "priceSuffix": "/person",
+      "rating": 4.8,
+      "category": "Family",
+      "image": "https://images.unsplash.com/photo-1614591276564-7b3e69347a48?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "allure-of-kashmir",
+      "name": "The Allure of Kashmir",
+      "itinerary": "3N Srinagar, 1N Houseboat",
+      "duration": "4N/5D",
+      "priceOriginal": 11499,
+      "priceDiscount": 8000,
+      "priceSuffix": "/person",
+      "rating": 4.8,
+      "category": "Family",
+      "image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "enchanted-valley",
+      "name": "The Enchanted Valley",
+      "itinerary": "3N Srinagar, 1N Pahalgam, 1N Houseboat",
+      "duration": "5N/6D",
+      "priceOriginal": 15499,
+      "priceDiscount": 13000,
+      "priceSuffix": "/person",
+      "rating": 4.9,
+      "category": "Family",
+      "image": "https://images.unsplash.com/photo-1567601169793-64703dc5324a?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "essence-of-kashmir",
+      "name": "Essence of Kashmir",
+      "itinerary": "3N Srinagar, 1N Pahalgam, 1N Gulmarg, 1N Houseboat",
+      "duration": "6N/7D",
+      "priceOriginal": 17499,
+      "priceDiscount": 16500,
+      "priceSuffix": "/person",
+      "rating": 4.9,
+      "category": "Family",
+      "image": "https://images.unsplash.com/photo-1651509094074-e8acaeb84d8f?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "captivating-kashmir",
+      "name": "Captivating Kashmir",
+      "itinerary": "3N Srinagar, 2N Pahalgam, 1N Gulmarg, 1N Houseboat",
+      "duration": "7N/8D",
+      "priceOriginal": 19499,
+      "priceDiscount": 18500,
+      "priceSuffix": "/person",
+      "rating": 4.9,
+      "category": "Adventure",
+      "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "heaven-unveiled",
+      "name": "Kashmir — Heaven Unveiled",
+      "itinerary": "3N Srinagar, 2N Pahalgam, 2N Gulmarg, 1N Houseboat",
+      "duration": "8N/9D",
+      "priceOriginal": 27499,
+      "priceDiscount": 21000,
+      "priceSuffix": "/person",
+      "rating": 5,
+      "category": "Adventure",
+      "image": "https://images.unsplash.com/photo-1566323124805-757e5c41d37c?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "vaishno-devi-darshan",
+      "name": "Vaishno Devi Darshan",
+      "itinerary": "2N Katra, 1N Patnitop",
+      "duration": "3N/4D",
+      "priceOriginal": 11499,
+      "priceDiscount": 7600,
+      "priceSuffix": "/person",
+      "rating": 4.9,
+      "category": "Pilgrimage",
+      "image": "https://images.unsplash.com/photo-1647876003124-bd557b9ac854?auto=format&fit=crop&w=1600&q=80"
+    }
+  ],
+  "destinations": [
+    {
+      "name": "Srinagar",
+      "image": "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=1600&q=80",
+      "description": "The summer capital, famous for Dal Lake, houseboats, and Mughal gardens.",
+      "fullStory": "Srinagar, sitting on the banks of the Jhelum river, is the historic heart of the Kashmir Valley. Characterized by labyrinthine old-city alleys, wooden bridges spanning the river, and the vast expanse of Dal and Nigeen Lakes, it is a city of layers. The Mughal Emperors were so captivated by its mild summer climate and mountain backdrops that they built sprawling terraced pleasure gardens filled with fountains, cascades, and rows of majestic Chinar trees.",
+      "travelTips": [
+        "Take a Shikara ride at 5:00 AM to witness the floating vegetable market where trade happens directly between boats.",
+        "Walk through the narrow streets of the Old Quarter to see medieval brick-and-timber architecture.",
+        "Try authentic Kashmiri Wazwan, a multi-course ritual feast of lamb dishes prepared by local masterchefs (Wastas)."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1607618064912-0559228f8006?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1598305374805-4f3640226462?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Gulmarg",
+      "image": "https://images.unsplash.com/photo-1568889753852-196c487a536e?auto=format&fit=crop&w=1600&q=80",
+      "description": "The meadow of flowers, renowned for skiing and the Gondola ride.",
+      "fullStory": "Gulmarg is a cup-shaped alpine meadow nestled high in the Pir Panjal range. In spring and summer, the pastures are covered in wildflowers including daisies, lupines, and buttercups. Come winter, it transforms into India's premier ski resort, buried under deep blankets of dry powdery snow. The highlight of Gulmarg is its Gondola, one of the highest cable cars in the world, taking you up to the Apharwat Peak at over 13,000 feet.",
+      "travelTips": [
+        "Book your Gondola tickets online weeks in advance; they sell out fast, especially during high ski season.",
+        "Hire a certified ski instructor if you want to try skiing on the baby slopes.",
+        "Take a walk to the historical St. Mary's Church sitting right in the middle of the meadow pastures."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Sonamarg",
+      "image": "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1600&q=80",
+      "description": "The meadow of gold, known for glaciers and pristine rivers.",
+      "fullStory": "Sonamarg is the gateway to the Ladakh plateau, framed by soaring snow-bound peaks and cut through by the rushing, clear waters of the Sindh River. Historically, it was a vital route on the ancient Silk Road. It is called the 'Meadow of Gold' because the sun rays hitting the high glaciers and alpine meadows in early morning create a beautiful gilded shimmer. It is the base for trekking to high-altitude lakes and visiting the Thajiwas Glacier.",
+      "travelTips": [
+        "Rent a local pony to climb up to the base of the Thajiwas Glacier where snow remains all year round.",
+        "Stop by the banks of the Sindh River for a hot cup of saffron tea and enjoy the sound of rushing rapids.",
+        "Visit during late autumn to see the pine forests turn rich colors against the grey peaks."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1547036967-23d11aacaee0?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Pahalgam",
+      "image": "https://images.unsplash.com/photo-1598305374805-4f3640226462?auto=format&fit=crop&w=1600&q=80",
+      "description": "The valley of shepherds, situated along the Lidder River.",
+      "fullStory": "Pahalgam is a tranquil, pine-scented town situated at the junction of the Lidder and Sheshnag rivers. It was once a quiet shepherd's village and has now evolved into a classic hill station, though it retains its serene, forested charm. Lush green meadows, dense cedar woods, and roaring mountain streams make it the perfect spot for walking, trout fishing, and relaxing away from the busier tourist centers.",
+      "travelTips": [
+        "Take a morning walk through Baisaran Meadow, often called 'Mini Switzerland' due to its pine-fringed hills.",
+        "Try trout angling in the Lidder River (requires a permit from the local fisheries department).",
+        "Stop at the local markets to buy authentic hand-embroidered pherans and woolen shawls."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1547036967-23d11aacaee0?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Leh",
+      "image": "https://images.unsplash.com/photo-1600242466690-c1c04f081762?auto=format&fit=crop&w=1600&q=80",
+      "description": "High-altitude desert city known for Buddhist monasteries and stunning landscapes.",
+      "fullStory": "Leh, the capital of Ladakh, is a high-altitude cold desert surrounded by barren, jagged mountain ranges and deep blue valleys. Sitting at 11,500 feet, the city is crowned by the 17th-century Leh Palace and is dotted with whitewashed Tibetan Buddhist monasteries (gompas) that cling to rocky hillsides. The dry, crisp air, prayer flags fluttering in the wind, and moon-like landscape create a starkly beautiful atmosphere.",
+      "travelTips": [
+        "Rest completely for the first 24–48 hours of arrival to acclimatize to the thin air and avoid altitude sickness.",
+        "Visit the Shanti Stupa at sunset for a panoramic 360-degree view of the entire valley.",
+        "Hire a bullet motorcycle to ride the scenic loop to Magnetic Hill and the Confluence of Indus and Zanskar rivers."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1614092248255-b5dd07ef10e4?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Kargil",
+      "image": "https://images.unsplash.com/photo-1628400187182-25d71acd6094?auto=format&fit=crop&w=1600&q=80",
+      "description": "Historic transit town along the Suru River with scenic valleys.",
+      "fullStory": "Kargil, situated along the Suru River, is Ladakh's second largest town. It serves as a historic transit hub between Kashmir and Ladakh. Historically, merchants caravans would stop here before crossing high mountain passes. The town is surrounded by rugged valleys, apricot orchards, and historic battlefields, offering a window into the region's rich Islamic-Tibetan heritage and strategic history.",
+      "travelTips": [
+        "Visit the Kargil War Memorial in nearby Dras to pay tribute to the soldiers of the 1999 conflict.",
+        "Try fresh Kargil apricots, widely considered the sweetest and most delicious in the region.",
+        "Take a detour to the scenic Suru Valley to see massive granite peaks and traditional farming villages."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1486873249359-2731bd6dafc7?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Yusmarg",
+      "image": "https://images.unsplash.com/photo-1666513303924-8dd2ca7606ff?auto=format&fit=crop&w=1600&q=80",
+      "description": "An offbeat meadow of pine trees, perfect for quiet nature walks.",
+      "fullStory": "Yusmarg, meaning 'The Meadow of Jesus', is an offbeat gem hidden away from the main tourist loops. It is a vast stretch of rolling green grass bordered by dense pine and cedar forests, with the snow-capped peaks of the Tatakooti and Sunset mountains rising in the distance. It is said that Jesus once walked through this peaceful meadow, and indeed, it remains one of the quietest and most meditative spots in Kashmir.",
+      "travelTips": [
+        "Take a trek to Nilnag Lake, a beautiful blue-water body tucked deep inside a pine forest.",
+        "Pack a picnic lunch; there are few commercial eateries here, preserving the raw natural feel.",
+        "Walk down to the Doodh Ganga River, known for its fast-rushing white foam that looks like milk."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Aru Valley",
+      "image": "https://images.unsplash.com/photo-1667409833460-c3124c99555c?auto=format&fit=crop&w=1600&q=80",
+      "description": "A scenic village and meadow basecamp for treks, near Pahalgam.",
+      "fullStory": "Aru Valley is a small, picture-perfect mountain village situated 12 km from Pahalgam. The village is spread across green meadows beside a cold alpine stream and serves as the starting point for treks to the Kolahoi Glacier and the high-altitude Tarsar-Marsar lakes. With its traditional wooden homes, horses grazing on slopes, and mist clinging to pine tops, Aru feels frozen in a simpler era.",
+      "travelTips": [
+        "Take a walk in the late afternoon to see the traditional log houses and meet local Gujjar families.",
+        "Rent a horse to go to the green pastures of Green Top or Lidderwat view points.",
+        "Stay overnight in a local guesthouse to experience the cold mountain night and starry sky away from the main town."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Vaishno Devi",
+      "image": "https://images.unsplash.com/photo-1647876003124-bd557b9ac854?auto=format&fit=crop&w=1600&q=80",
+      "description": "Holy Hindu temple cave situated in the Trikuta Mountains.",
+      "fullStory": "Vaishno Devi is one of the most revered Hindu pilgrimage destinations in India. Tucked away in a natural cave on the slopes of the Trikuta Hills in Jammu, the shrine of the Mother Goddess (Mata Vaishno Devi) draws millions of devotees each year. The pilgrimage involves a spiritual 12 km trek from the base town of Katra, climbing through winding paths that offer panoramic views of the surrounding hills.",
+      "travelTips": [
+        "Register online for your Yatra Parcha (entry slip) before arriving to avoid long queues at Katra.",
+        "If the 12 km walk is difficult, book a helicopter ride or battery-operated auto rickshaw in advance.",
+        "Begin the trek in the late evening to enjoy the cool night breeze and the illuminated mountain paths."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1561361513-2d000a50f0db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1486873249359-2731bd6dafc7?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Patnitop",
+      "image": "https://images.unsplash.com/photo-1687460410037-9dbd7e5583ab?auto=format&fit=crop&w=1600&q=80",
+      "description": "Hill station near Katra with dense pine forests and snow slopes.",
+      "fullStory": "Patnitop is a scenic hilltop resort situated in the Udhampur district, offering panoramic views of the Chenab River basin and the snow-clad peaks of the Himalayas. The town is surrounded by dense pine and cedar forests, and has open pastures that turn into ski slopes in winter. It is known for its quiet walking trails, adventure sports like paragliding, and refreshing climate.",
+      "travelTips": [
+        "Visit Skyview Patnitop to experience one of the longest ziplines and ropeway rides in Asia.",
+        "Take a morning walk to Nathatop to see rolling clouds and panoramic Himalayan views.",
+        "Buy local cheese (Kaladi), a traditional local dairy delicacy served hot at roadside stalls."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Shalimar Garden",
+      "image": "https://images.unsplash.com/photo-1667841003435-eec5005858bc?auto=format&fit=crop&w=1600&q=80",
+      "description": "The royal Mughal garden of love built by Emperor Jahangir.",
+      "fullStory": "Shalimar Bagh is the largest and most famous of Srinagar's Mughal gardens, built in 1619 by Emperor Jahangir for his beloved wife, Nur Jahan. He called it the 'Abode of Love'. The garden is built on a grand scale with three terraces, a black marble pavilion in the royal section, and hundreds of fountains fed by the mountain stream that flows down through the center of the estate.",
+      "travelTips": [
+        "Spend time examining the beautiful floral carvings inside the black marble pavilion.",
+        "Visit during the afternoon to see the water fountains turned on and cascading down the stone steps.",
+        "Sit quietly under one of the massive Chinar trees; many of them are over 400 years old."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1467803738586-46b7eb7be060?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Dachigam National Park",
+      "image": "https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&w=800&q=80",
+      "description": "Protected sanctuary home to the rare Hangul (Kashmir Stag).",
+      "fullStory": "Dachigam National Park, meaning 'Ten Villages', is a protected reserve situated 22 km from Srinagar. It was originally created to protect the drinking water supply of Srinagar and is now the last remaining refuge of the Hangul, or Kashmir Stag, a critically endangered deer species. The park ranges from gentle river flats to high rocky ridges, featuring pine forests, oak stands, and cold mountain streams.",
+      "travelTips": [
+        "Obtain a entry permit from the Wildlife Department in Srinagar before attempting to visit.",
+        "Hire an official naturalist guide at the gate to increase your chances of spotting a Hangul or Himalayan Black Bear.",
+        "Wear earthy-colored clothes and maintain absolute silence while walking the trails."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Khilanmarg",
+      "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=1600&q=80",
+      "description": "A small valley near Gulmarg offering panoramic mountain views.",
+      "fullStory": "Khilanmarg is a quiet valley situated 4 km uphill from Gulmarg. It is covered in alpine flowers during the spring and summer and becomes a snow-covered valley in winter. Because it is inaccessible by vehicles, the valley remains pristine. It offers one of the most breathtaking views of the surrounding Himalayan peaks, including Nanga Parbat, the world's ninth-highest mountain.",
+      "travelTips": [
+        "Trek up from Gulmarg on foot if you enjoy walking; it takes about 1.5 to 2 hours through a pine forest.",
+        "Take a pony ride if the uphill climb is too steep or slippery with snow.",
+        "Carry water and snacks as there are very few commercial shops in the valley, keeping it clean."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1621252179027-94459d278660?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Dal Lake",
+      "image": "https://images.unsplash.com/photo-1564329494258-3f72215ba175?auto=format&fit=crop&w=1600&q=80",
+      "description": "The jewel of Srinagar, famous for shikaras and floating markets.",
+      "fullStory": "Dal Lake is the center of life and commerce in Srinagar, covering over 18 square kilometers. It is not just a body of water, but a living community with floating gardens (Radh), floating shops, houses, and the iconic wooden houseboats. Living on a houseboat, listening to the gentle lap of water against wood, and watching the colorful Shikaras glide by is a timeless Kashmiri experience.",
+      "travelTips": [
+        "Hire a Shikara for a slow sunset ride and ask the boatman to take you to the quiet channels of the water gardens.",
+        "Stay at least one night in a heritage wooden houseboat to experience traditional wood-carved rooms and local hospitality.",
+        "Buy local flowers or wooden handicrafts from the mobile boat-merchants who row up to your houseboat."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1598305374805-4f3640226462?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1615966650071-855b15f29ad1?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "name": "Betaab Valley",
+      "image": "https://images.unsplash.com/photo-1694368906488-aa07d406696e?auto=format&fit=crop&w=1600&q=80",
+      "description": "Lush green valley named after the Bollywood film Betaab.",
+      "fullStory": "Betaab Valley is a lush, wide valley situated 15 km from Pahalgam. It is bordered by steep pine-covered mountains and cut through by the crystal clear Lidder River. The valley was named after the hit 1983 Bollywood movie 'Betaab' which was filmed here. With its manicured grass flats, wooden bridges crossing the river, and cold mountain water flowing over stones, it is a favorite spot for family picnics and photography.",
+      "travelTips": [
+        "Bring a camera to capture the dramatic contrast of the deep green grass against the snow peaks.",
+        "Dip your feet in the Lidder River, but be careful as the water is ice-cold and has a strong current.",
+        "Walk to the wooden bridge at the far end of the park for a panoramic view of the mountain pass."
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1547036967-23d11aacaee0?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  ]
+}
