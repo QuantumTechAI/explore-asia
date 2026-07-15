@@ -572,7 +572,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Open Modal
         modal.classList.remove('id-hidden');
         document.body.style.overflow = 'hidden';
-        if (window.lenis) window.lenis.stop();
 
         // GTM Track destination view
         window.dataLayer = window.dataLayer || [];
@@ -586,7 +585,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeModal = () => {
       modal.classList.add('id-hidden');
       document.body.style.overflow = '';
-      if (window.lenis) window.lenis.start();
     };
 
     closeBtn.addEventListener('click', closeModal);
