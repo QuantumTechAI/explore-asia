@@ -344,18 +344,11 @@ document.addEventListener('DOMContentLoaded', () => {
   /* --- 6.9 — VIDEO TESTIMONIALS (FACADE PATTERN) --- */
   function setupVideoTestimonials(videos) {
     const gallery = document.getElementById('video-gallery');
-    const modal = document.getElementById('video-modal-overlay');
-    const modalWrapper = document.getElementById('modal-video-wrapper');
-    const closeBtn = document.getElementById('modal-close-btn');
-
     if (!gallery) return;
     gallery.innerHTML = '';
 
     videos.forEach(vid => {
-      const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
-      const match = vid.youtubeUrl.match(regExp);
-      const videoId = (match && match[2].length === 11) ? match[2] : null;
-
+      const videoId = vid.youtubeId;
       if (!videoId) return;
 
       const thumbUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
@@ -364,49 +357,48 @@ document.addEventListener('DOMContentLoaded', () => {
       card.className = 'video-card';
       card.innerHTML = `
         <div class="video-thumb-wrapper">
-          <img class="video-thumb" src="${thumbUrl}" alt="Travel video review by ${vid.name}" loading="lazy">
-          <div class="video-overlay">
-            <span class="video-traveler-name">${vid.name}</span>
-            <span class="video-traveler-desc">${vid.location} • ${vid.package}</span>
-          </div>
+          <img class="video-thumb" src="${thumbUrl}" alt="Kashmir Travel Short" loading="lazy">
           <button class="video-play-btn" aria-label="Play video"><i class="fa-solid fa-play"></i></button>
         </div>
       `;
 
-      card.addEventListener('click', () => {
-        if (!modal || !modalWrapper) return;
-        modalWrapper.innerHTML = `
-          <iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      const playBtn = card.querySelector('.video-play-btn');
+      playBtn.addEventListener('click', () => {
+        card.innerHTML = `
+          <div class="video-iframe-wrapper">
+            <iframe id="iframe-${videoId}" src="https://www.youtube.com/embed/${videoId}?enablejsapi=1&mute=1&playsinline=1&autoplay=1&rel=0" title="YouTube Short" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="video-mute-btn" id="mute-btn-${videoId}" aria-label="Toggle sound">
+              <i class="fa-solid fa-volume-xmark"></i>
+            </button>
+          </div>
         `;
-        modal.classList.remove('id-hidden');
-        
+
+        const iframe = card.querySelector('iframe');
+        const muteBtn = card.querySelector('.video-mute-btn');
+        let isMuted = true;
+
+        muteBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          isMuted = !isMuted;
+          const command = isMuted ? 'mute' : 'unMute';
+          iframe.contentWindow.postMessage(JSON.stringify({
+            event: 'command',
+            func: command,
+            args: ''
+          }), '*');
+          
+          muteBtn.innerHTML = isMuted ? '<i class="fa-solid fa-volume-xmark"></i>' : '<i class="fa-solid fa-volume-high"></i>';
+        });
+
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
           event: 'video_play_click',
-          videoTravelerName: vid.name,
           videoYoutubeId: videoId
         });
       });
 
       gallery.appendChild(card);
     });
-
-    if (closeBtn && modal && modalWrapper) {
-      const closeModal = () => {
-        modal.classList.add('id-hidden');
-        modalWrapper.innerHTML = ''; 
-      };
-
-      closeBtn.addEventListener('click', closeModal);
-      modal.addEventListener('click', (e) => {
-        if (e.target === modal) closeModal();
-      });
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && !modal.classList.contains('id-hidden')) {
-          closeModal();
-        }
-      });
-    }
   }
 
   /* --- 6.10 — TRAVELER VOICES (WRITTEN TESTIMONIALS SLIDER) --- */

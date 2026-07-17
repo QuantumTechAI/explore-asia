@@ -17,27 +17,12 @@
     "placeholderImage": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=800&q=80"
   },
   "videoTestimonials": [
-    {
-      "id": 1,
-      "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-      "name": "Ananya Sen",
-      "location": "Kolkata",
-      "package": "Love in the Valley — Honeymoon Edition"
-    },
-    {
-      "id": 2,
-      "youtubeUrl": "https://www.youtube.com/watch?v=X23D_N9G3vU",
-      "name": "Vikram Malhotra",
-      "location": "Delhi",
-      "package": "Charismatic Kashmir"
-    },
-    {
-      "id": 3,
-      "youtubeUrl": "https://www.youtube.com/watch?v=fX5y8W6n8m0",
-      "name": "Siddharth & Ritu",
-      "location": "Mumbai",
-      "package": "Captivating Kashmir"
-    }
+    { "youtubeId": "XbBXs_Whn-U" },
+    { "youtubeId": "EOWDjdSrMVc" },
+    { "youtubeId": "HqTrdD6MOzw" },
+    { "youtubeId": "yCcqL9mKEI8" },
+    { "youtubeId": "hTY3QHqWO24" },
+    { "youtubeId": "3TuJW3X0yUE" }
   ],
   "writtenTestimonials": [
     {

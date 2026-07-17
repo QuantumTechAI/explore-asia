@@ -1464,26 +1464,54 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .video-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.2rem;
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 1rem 0.5rem 2rem 0.5rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.video-gallery::-webkit-scrollbar {
+  height: 6px;
+}
+.video-gallery::-webkit-scrollbar-track {
+  background: rgba(11,30,51,0.05);
+  border-radius: 4px;
+}
+.video-gallery::-webkit-scrollbar-thumb {
+  background: var(--clr-saffron);
+  border-radius: 4px;
 }
 
 .video-card {
-  border-radius: var(--border-radius);
+  flex: 0 0 auto;
+  width: 280px;
+  aspect-ratio: 9 / 16;
+  border-radius: var(--border-radius-lg);
   overflow: hidden;
-  background-color: var(--clr-white);
+  background-color: var(--clr-navy);
   box-shadow: var(--shadow-premium);
   position: relative;
   cursor: pointer;
   border: 1px solid var(--clr-glass-border);
+  scroll-snap-align: start;
 }
 
-.video-thumb-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
+.video-thumb-wrapper,
+.video-iframe-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   background-color: var(--clr-navy);
+}
+
+.video-iframe-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .video-thumb {
@@ -1499,17 +1527,6 @@ h1, h2, h3, h4, h5, h6 {
 .video-card:hover .video-thumb {
   transform: scale(1.05);
   opacity: 0.95;
-}
-
-.video-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 40%, rgba(11, 30, 51, 0.75) 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 1.5rem;
-  z-index: 5;
 }
 
 .video-play-btn {
@@ -1542,6 +1559,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .video-play-btn i {
   margin-left: 4px;
+}
+
+.video-mute-btn {
+  position: absolute;
+  bottom: 1.2rem;
+  right: 1.2rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(11,30,51,0.6);
+  color: var(--clr-white);
+  border: 1px solid rgba(255,255,255,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 20;
+  backdrop-filter: blur(4px);
+  transition: all var(--trans-fast);
+}
+
+.video-mute-btn:hover {
+  background: var(--clr-saffron);
+  border-color: var(--clr-saffron);
 }
 
 .video-traveler-name {
@@ -2438,10 +2479,7 @@ h1, h2, h3, h4, h5, h6 {
     flex: 0 0 calc(50% - 1rem); /* 2 cards on tablet */
   }
   
-  .video-gallery {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.8rem;
-  }
+
   .destinations-mosaic {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -2574,9 +2612,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important; /* Hide arrows on touch screens */
   }
   
-  .video-gallery {
-    grid-template-columns: 1fr;
-  }
+
   
   .destinations-mosaic {
     display: flex;
