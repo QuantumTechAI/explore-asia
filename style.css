@@ -1105,7 +1105,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6rem 0;
   position: relative;
   z-index: 20;
-  background-color: var(--clr-parchment);
 }
 
 .packages-filters {
